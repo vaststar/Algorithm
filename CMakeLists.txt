@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.1)
+project(sort)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+aux_source_directory(${CMAKE_CURRENT_LIST_DIR} DIR_SRCS)
+add_executable(test ${DIR_SRCS})
